@@ -557,7 +557,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background-image: url(../images/homebg.jpg);
+    background-image: url('../images/homebg.jpg');
     background-size: cover;
 }
 
