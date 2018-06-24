@@ -463,7 +463,7 @@ input::-ms-input-placeholder {
 /*for image bg*/
 
 
-/*.img-bg{
+.img-bg{
   background: url(../images/home-msg.jpg) no-repeat center top fixed;
   background-size
   -moz-background-size: cover;
@@ -472,7 +472,7 @@ input::-ms-input-placeholder {
   background-size: cover;
   width: 100%;
   overflow: hidden;
-}*/
+}
 /* navbar section */
 .header_top_menu{
     transition: .6s;
@@ -557,7 +557,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background-image: url('../images/homebg.jpg');
+    background-image: url(../images/homebg.jpg);
     background-size: cover;
 }
 
