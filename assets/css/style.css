@@ -20,6 +20,59 @@ body {
     font-weight: 300;
 }
 
+
+
+
+/* MEALS */
+
+.section-meals {
+    padding: 0px;
+    
+}
+
+.meals-showcase {    
+    list-style: none;
+    width: 100%;
+       
+    }
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;    
+    
+}
+
+.meals-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden; 
+    background-color: #000;
+    
+}
+
+.meals-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity: 0.5s;
+        
+}
+
+.meals-photo img:hover {
+    opacity: 1;
+    transform: scale(1.04);
+    transition: transform 0.5s;
+}
+
+
+/* --------------------- */
+
+
+
+
+
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -164,7 +217,7 @@ h6 {
 p {
     line-height: 1.875rem;
     font-size: 1.125rem;
-    font-family: 'latolight'; 
+    font-family: 'latolight';
 }
 p:last-child {
     margin-bottom: 0px;
@@ -247,12 +300,12 @@ ul{
     margin-bottom: 4rem;
 }
 .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 5, 0, 0.3);
     width: 100%;
     height: 750px;
 }
 .callus_overlay {
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 15, 0, 0.80);
     width: 100%;
 }
 .overlay-fluid-block {
@@ -267,6 +320,7 @@ ul{
 }
 .overlay-img {
     background: rgba(0, 0, 0, 0.3);
+    opacity: inherit;
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -357,11 +411,11 @@ Button
     color: #fff;
     background-color: #032f3e;
     border-color: #032f3e;
-    transition: .5s;	
+    transition: .5s;
 }
 .btn-primary:hover {
     color: #fff;
-    background-color: #043c4f;	
+    background-color: #043c4f;
 }
 
 .btn_news_color{
@@ -463,7 +517,7 @@ input::-ms-input-placeholder {
 /*for image bg*/
 
 
-.img-bg{
+/*.img-bg{
   background: url(../images/home-msg.jpg) no-repeat center top fixed;
   background-size
   -moz-background-size: cover;
@@ -472,7 +526,7 @@ input::-ms-input-placeholder {
   background-size: cover;
   width: 100%;
   overflow: hidden;
-}
+}*/
 /* navbar section */
 .header_top_menu{
     transition: .6s;
@@ -486,9 +540,9 @@ input::-ms-input-placeholder {
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0; 
-    left: 0; 
-    right: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -575,15 +629,6 @@ input::-ms-input-placeholder {
     font-family: 'latolight';
 }
 
-.home .main_home .video_play_icon a{
-    width:175px;
-    height:125px;
-    background: #032F3E;
-    display: inline-block;
-    text-align: center;
-    line-height: 150px;
-
-}
 
 .home .main_home .video_play_icon a i{
     color:#fff;
@@ -656,7 +701,7 @@ input::-ms-input-placeholder {
     background-size: contain;
 }
 .main_lessons{
-    
+
 }
 .lesson_title{}
 .lesson_title h1{
@@ -729,7 +774,7 @@ input::-ms-input-placeholder {
     opacity: 1;
 }
 .single_content_item2{
-    position: relative;   
+    position: relative;
     margin-bottom: 40px;
 }
 .single_content_item2 img{
@@ -809,9 +854,11 @@ input::-ms-input-placeholder {
 
 /*callus section css*/
 .callus{
-    background: url(../images/tw_bg.jpg) no-repeat center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/tw_bg.jpg) no-repeat center center;
     overflow: hidden;
     background-size:cover;
+        
+    
 }
 .main_callus{
     padding: 50px 0px 30px 0px;
@@ -870,7 +917,7 @@ input::-ms-input-placeholder {
 }
 
 .news_content_left_content{
-    padding: 30px 20px 20px 20px;  
+    padding: 30px 20px 20px 20px;
 }
 p.subtitle{
     font-size:1rem;
@@ -886,13 +933,13 @@ p.subtitle{
   float:left;
   display: inline-block;
   width:90%;
-  
+
 }
 .bottom_btn_area_content a.news_right_icon{
   float:right;
   width:10%;
   display: inline-block;
-  
+
 }*/
 a.news_icon{
     text-transform: uppercase;
@@ -1002,7 +1049,7 @@ a i{
     color:#e8e8e8;
 }
 .footer_widget .main_widget{
-    padding:55px 20px 80px 20px; 
+    padding:55px 20px 80px 20px;
     overflow: hidden;
 }
 .footer_title_left{
@@ -1103,4 +1150,3 @@ a i{
     text-decoration: none;
 
 }
-
